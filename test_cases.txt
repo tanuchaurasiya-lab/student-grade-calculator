@@ -1,0 +1,32 @@
+---
+
+### 📝 `test_cases.txt`
+Save this file as `test_cases.txt` to document your testing evidence:
+
+```text
+==================================================
+STUDENT GRADE CALCULATOR - TEST CASES & VALIDATION
+==================================================
+
+Test Case 1: Valid Grade A
+- Input Name: Priya
+- Input Marks: 85 -> wait, let's test A: 95
+- Expected Output: Grade A, Outstanding! Excellent work! 🌟
+
+Test Case 2: Valid Grade B (Sample Output match)
+- Input Name: Priya
+- Input Marks: 85
+- Expected Output: Grade B, Very Good! Keep it up! 👍
+
+Test Case 3: Valid Grade F (Lower Boundary)
+- Input Name: Rahul
+- Input Marks: 45
+- Expected Output: Grade F, Don't get discouraged! Review the concepts and try again. 📚
+
+Test Case 4: Input Validation (Out of Range)
+- Input Marks: 105
+- Expected Output: "⚠️ Invalid range! Marks must be between 0 and 100. Please try again." (Re-prompts user)
+
+Test Case 5: Input Validation (Non-Numeric String)
+- Input Marks: "abc"
+- Expected Output: "⚠️ Invalid input! Please enter a numeric value." (Re-prompts user)
